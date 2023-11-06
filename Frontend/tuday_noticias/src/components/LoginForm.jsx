@@ -57,7 +57,7 @@ const LoginForm = ({ onLogin }) => {
   return (
     <>
       <div style={{ padding: "450px", marginTop: "-400px" }}>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '550px', background: 'gray', borderRadius: '30px', width: "500px" }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '550px', background: "#e3e4e5", borderRadius: '30px', width: "500px" }}>
           <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h2 style={{ marginBottom: '20px' }}>INICIO DE SESIÓN</h2>
             <label>

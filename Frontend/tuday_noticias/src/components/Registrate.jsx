@@ -11,7 +11,7 @@ export default function Registrate() {
 
 
             <div style={{ padding: "500px", marginTop: "-400px" }}>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '450px', background: 'gray', borderRadius: '30px', width: "400px" }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '450px', background: "#e3e4e5", borderRadius: '30px', width: "400px" }}>
                     <form>
                         <h2>REGÍSTRATE</h2>
                         <label>
@@ -34,8 +34,8 @@ export default function Registrate() {
                             Télefono:<br />
                             <input type="number" placeholder="" />
                         </label><br />
-                        <br /><button type="submit">Iniciar Sesión</button><br />
-                        <p>¿Ya tienes una cuenta? <a href="#">Ingresa aquí</a></p>
+                        <br /><button type="submit">Registrar cuenta</button><br />
+                        <p>¿Ya tienes una cuenta? <a href="http://localhost:5173/login">Ingresa aquí</a></p>
                     </form>
                 </div>
             </div>
